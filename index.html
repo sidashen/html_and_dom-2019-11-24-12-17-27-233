@@ -12,26 +12,33 @@
   <h1>统一建模语言理论测试</h1>
   <table border="0">
     <tr>
-      <td>考试科目：统一建模语言</td>
-      <td>时间：100分钟</td>
-      <td>得分：100</td>
+      <td>考试科目 </td>
+      <td>: </td>
+      <td>统一建模语言</td>
+      <td>时间</td>
+      <td>:</td>
+      <td>100分钟</td>
+      <td>得分</td>
+      <td>:</td>
+      <td>100</td>
     </tr>
     <tr>
-      <td>
-        班级：&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" value ="1 班"> 
+      <td>班级</td>
+      <td>：</td>
+      <td><input type="text" value ="1 班"></td>
       </td>
-      <td>
-        学号：&nbsp;<input type="text" value ="001"> 
-      </td> 
-      <td>
-        姓名：&nbsp; &nbsp; &nbsp; &nbsp;<input type="text" value ="王小闹">
-      </td> 
+      <td>学号</td>
+      <td>:</td>
+      <td><input type="text" value ="001"></td> 
+      <td>姓名</td>
+      <td>:</td>
+      <td><input type="text" value ="王小闹"></td> 
     </tr>
   </table>
   <h2>一、填空题（每空5分，共20分）</h2>
   <ol>
     <li> 
-      UML的中文全称是：<input type="text" value ="统一建模语言"> 
+      <label for="txt">UML的中文全称是：</label><input type="text" value ="统一建模语言" id="txt"> 
     </li>
     <li>
       对象最突出的特征是：<input type="text" value ="封装性">&nbsp;<input type="text" value ="继承性">&nbsp<input type="text" value ="多态性">  
@@ -42,24 +49,32 @@
     <li> 
       UML与软件工程的关系是：
       <br>
-      <input type="radio" name="relationship" value ="answer">(A) UML就是软件工程
+      <input type="radio" name="relationship" id="software">
+      <label for="software">(A) UML就是软件工程</label>
       <br>
-      <input type="radio" name="relationship" value ="answer" checked>(B) UML参与到软件工程中软件开发过程的几个阶段
+      <input type="radio" name="relationship" value ="answer" id="progress" checked>
+      <label for="progress">(B) UML参与到软件工程中软件开发过程的几个阶段</label>
       <br>
-      <input type="radio" name="relationship" value ="answer">(C) UML与软件工程无关
+      <input type="radio" name="relationship" value ="answer" id="norel">
+      <label for="norel">(C) UML与软件工程无关</label>
       <br>
-      <input type="radio" name="relationship" value ="answer">(D) UML是软件工程的一部分
+      <input type="radio" name="relationship" value ="answer" id="part">
+      <label for="part">(D) UML是软件工程的一部分</label>
     </li>
     <li>
       ava语言支持：
       <br>
-      <input type="radio" name="language" value ="answer" checked>(A) 单继承
+      <input type="radio" name="language" value ="answer" id="single" checked>
+      <label for="single">(A) 单继承</label>
       <br>
-      <input type="radio" name="language" value ="answer">(B) 多继承
+      <input type="radio" name="language" value ="answer" id="multi">
+      <label for="multi">(B) 多继承</label>
       <br>
-      <input type="radio" name="language" value ="answer">(C) 单继承和多继承都支持  
+      <input type="radio" name="language" value ="answer" id="both">
+      <label for="both">(C) 单继承和多继承都支持</label>  
       <br>
-      <input type="radio" name="language" value ="answer">(D) 单继承和多继承都不支持
+      <input type="radio" name="language" value ="answer" id="none">
+      <label for="none">(D) 单继承和多继承都不支持</label>
     </li>
   </ol>
   <h2>三、多择题（每题10分，共20分）</h2>
@@ -67,37 +82,45 @@
     <li>
       用例的粒度分为以下哪三种：
       <br>
-      <input type="checkbox" name="granularity" value="answer" checked>(A) 概述级
+      <input type="checkbox" name="granularity" value="answer" id="ab" checked>
+      <label for="ab">(A) 概述级</label>
       <br>
-      <input type="checkbox" name="granularity" value="answer" checked>(B) 需求级 
+      <input type="checkbox" name="granularity" value="answer" id="need" checked>
+      <label for="need">(B) 需求级</label> 
       <br>
-      <input type="checkbox" name="granularity" value="answer">(C) 用户目标级
+      <input type="checkbox" name="granularity" value="answer" id="target">
+      <label for="target">(C) 用户目标级</label>
       <br>
-      <input type="checkbox" name="granularity" value="answer" checked>(D) 子功能级
+      <input type="checkbox" name="granularity" value="answer" id="sub" checked>
+      <label for="sub">(D) 子功能级</label>
     </li>
     <li>
       类图由以下哪三部分组成：
       <br>
-      <input type="checkbox" name="component" value="answer" checked>(A) 名称(Name)
+      <input type="checkbox" name="component" value="answer" id="name" checked>
+      <label for="name">(A) 名称(Name)</label>
       <br>
-      <input type="checkbox" name="component" value="answer" checked>(B) 属性(Attribute)
+      <input type="checkbox" name="component" value="answer" checked id="attribute">
+      <label for="attribute">(B) 属性(Attribute)</label>
       <br>
-      <input type="checkbox" name="component" value="answer" checked>(C) 操作(Operation)
+      <input type="checkbox" name="component" value="answer" checked id="operation">
+      <label for="operation">(C) 操作(Operation)</label>
       <br>
-      <input type="checkbox" name="component" value="answer">(D) 方法(Function)
+      <input type="checkbox" name="component" value="answer" id="way">
+      <label for="way">(D) 方法(Function)</label>
     </li>
   </ol>
   <h2>四、判断题（每题10分，共20分）</h2>
   <ol>
     <li>
       用例图只是用于和客户交流和沟通的,用于确定需求。
-      <input type="radio" name="answer" value ="answer">√
-      <input type="radio" name="answer" value ="answer" checked>×
+      <input type="radio" name="answer" value ="answer" id="ri"><label for="ri">√</label>
+      <input type="radio" name="answer" value ="answer" id="wr" checked><label for="wr">×</label>
     </li>
     <li>
       在状态图中,终止状态在一个状态图中允许有任意多个。
-      <input type="radio" name="answer" value ="true" checked>√
-      <input type="radio" name="answer" value ="fault">× 
+      <input type="radio" name="answer" value ="true" id="right" checked><label for="right">√</label>
+      <input type="radio" name="answer" value ="fault" id="wrong"><label for="wrong">×</label> 
     </li>
   </ol>
   <h2>五、简答题（每题20分，共20分）</h2>
