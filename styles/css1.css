@@ -21,10 +21,7 @@
 }
 
 .name {
-  position: absolute;
   float: left;
-  text-align: center;
-  line-height: 70px;
 }
 
 .triangle {
@@ -52,39 +49,67 @@
 }
 
 .list {
-  height: 210px;
   width: 320px;
 }
 
 .list a {
   display: inline-block;
-  height: 100%;
-  margin-left: 83px;
-  z-index: 10px;
+  margin-left: 43px;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: top;
+  height: 70px;
+  line-height: 70px;
 }
 
 .option {
   margin: 0;
   padding: 0;
   list-style: none;
-  line-height: 70px;
 }
 
 .option li {
-  /* border-bottom: 1px solid rgb(201, 198, 198);
-  background: url(../static/bkg.png); 
-  background-repeat: no-repeat;
-  background-size: contain; */
+  overflow: hidden;
+  height: 70px;
+  border-bottom: 1px solid rgb(201, 198, 198);
 }
 
+.option li:last-child {
+  border: none;
+}
+
+.option li > div {
+  display: inline-block;
+  width: 80px;
+  height: 70px;
+  margin-left: 15px;
+}
+
+
 .heart {
-  border-bottom: 1px solid rgb(201, 198, 198);
-  background: url(../static/bkg.png) no-repeat 24px -34px;
+  float: left;
+  background: url(../static/bkg.png) no-repeat 14px -32px;
+  background-size: 190%;
+}
+
+.star {
+  float: left;
+  background: url(../static/bkg.png) no-repeat -50px 20px;
+  background-size: 190%;
+}
+
+.chat {
+  float: left;
+  background: url(../static/bkg.png) no-repeat 15px 20px;
+  background-size: 190%;
+}
+
+/* .heart {
+  background: url(../static/bkg.png) no-repeat 13px -34px;
   background-size: 49%;
 }
 
 .star {
-  border-bottom: 1px solid rgb(201, 198, 198);
   background: url(../static/bkg.png) no-repeat -43px 19px;
   background-size: 49%;
 }
@@ -93,7 +118,7 @@
   background: url(../static/bkg.png) no-repeat 26px 19px;
   background-size: 49%;
   z-index: -1px;
-}
+} */
 /* .option {
  disp none;
 } */
