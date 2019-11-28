@@ -1,0 +1,103 @@
+.bkg {
+  margin: 0px;
+  position: absolute;
+  top: 50%;
+  margin-top: -100px;
+  left: 50%;
+  margin-left: -100px;
+  background-color: white;
+}
+
+.nav, .list {
+  background-color: orangered;
+  border-radius: 7px;
+  border: 0px solid #fff;
+}
+
+.nav {
+  overflow: hidden;
+  height: 70px;
+  width: 320px;
+}
+
+.name {
+  position: absolute;
+  float: left;
+  text-align: center;
+  line-height: 70px;
+}
+
+.triangle {
+  float: right;
+  display: inline-block;
+  margin-top: 31px;
+  margin-right: 28px;
+  width:0px;
+  height:0px;
+  border-top: 14px solid white;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+
+.blank {
+  margin-left: 271px;
+  width:0px;
+  height:0px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid orangered;
+  border-left: 10px solid transparent;
+  }
+}
+
+.list {
+  height: 210px;
+  width: 320px;
+}
+
+.list a {
+  display: inline-block;
+  height: 100%;
+  margin-left: 83px;
+  z-index: 10px;
+}
+
+.option {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 70px;
+}
+
+.option li {
+  /* border-bottom: 1px solid rgb(201, 198, 198);
+  background: url(../static/bkg.png); 
+  background-repeat: no-repeat;
+  background-size: contain; */
+}
+
+.heart {
+  border-bottom: 1px solid rgb(201, 198, 198);
+  background: url(../static/bkg.png) no-repeat 24px -34px;
+  background-size: 49%;
+}
+
+.star {
+  border-bottom: 1px solid rgb(201, 198, 198);
+  background: url(../static/bkg.png) no-repeat -43px 19px;
+  background-size: 49%;
+}
+
+.chat {
+  background: url(../static/bkg.png) no-repeat 26px 19px;
+  background-size: 49%;
+  z-index: -1px;
+}
+/* .option {
+ disp none;
+} */
+
+/* li:before {
+  content:url(../static/bkg.png);
+} */
