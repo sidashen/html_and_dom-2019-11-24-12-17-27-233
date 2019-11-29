@@ -2,14 +2,14 @@
   margin: 0px;
   position: absolute;
   top: 50%;
-  margin-top: -100px;
+  margin-top: -153px;
   left: 50%;
-  margin-left: -100px;
+  margin-left: -160px;
   background-color: white;
 }
 
 .nav, .list {
-  background-color: orangered;
+  background-color: #f65040;
   border-radius: 7px;
   border: 0px solid #fff;
 }
@@ -61,17 +61,19 @@
 } 
 
 .blank {
-  margin-left: 271px;
+  position: absolute;
+  right: 28px;
   width:0px;
   height:0px;
   border-top: 10px solid transparent;
   border-right: 10px solid transparent;
-  border-bottom: 14px solid orangered;
+  border-bottom: 14px solid #f65040;
   border-left: 10px solid transparent;
 }
 
 .list {
   width: 320px;
+  margin-top: 24px;
 }
 
 .list a {
@@ -97,7 +99,7 @@
 }
 
 .line {
-  border-bottom: 1px solid rgb(201, 198, 198);
+  border-bottom: 1px solid #fd7a69;
 }
 
 .option li > div {
